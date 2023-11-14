@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="/src/reset.css" />
+    <link rel="stylesheet" href="/src/bootstrap.min.css" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mt-5">
+            <div class="card text-center">
+                <div class="card-header">
+                    Calculadora de IMC
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title mt-3">Calculadora de Indice de masa corporal en base a tu altura y peso</h5>
+                  <p class="card-text">
+                    <label for="InputNombre" class="form-label mt-3">Ingrese su Nombre</label>
+                    <input class="form-control" type="text" id="nombre" aria-label="default input example">
+
+                    <label for="InputPeso" class="form-label mt-3">Ingrese su peso</label>
+                    <input class="form-control" type="number" id="peso" aria-label="default input example">
+
+                    <label for="InputAltura" class="form-label mt-3">Ingrese su altura en centímetros</label>
+                    <input class="form-control" type="number" id="altura" aria-label="default input example">
+                  </p>
+                  <button type="button" class="btn btn-primary" onclick="verificar()">Calcular</button>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-sm-12 mt-5">
+            <div class="card">
+                <h5 class="card-header">Resultados</h5>
+                <div class="card-body">
+                  <h5 class="card-title text-primary" id="datos"></h5>
+                  <p class="card-text text-info" id="estado"></p>
+                  <p class="card-text text-info" id="extra"></p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 ms-5 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 lh-1 text-light fs-4">
+            <i class="bi bi-c-circle"></i>
+          </a>
+          <span class="mb-3 mb-md-0 text-light">2023 Lucas Acosta</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex fs-4">
+          <li class="ms-3"><a class="text-body" href="https://github.com/ALucasE">
+            <i class="bi bi-github"></i>
+          </a></li>
+          <li class="ms-3 me-5"><a class="text-body" href="https://www.linkedin.com/in/alucase/">
+            <i class="bi bi-linkedin"></i>
+          </a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="/src/script.js"></script>
+    <script src="/src/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
