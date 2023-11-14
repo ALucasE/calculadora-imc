@@ -25,9 +25,11 @@ Esta es una calculadora de Índice de Masa Corporal (IMC) desarrollada utilizand
 ## Capturas de Pantalla
 
 ![Captura de pantalla 1](https://raw.githubusercontent.com/ALucasE/caluladora-imc/main/src/img/Captura%20de%20web%2001.png)
+
 _Captura de pantalla de la calculadora en tamaño grande._
 
 ![Captura de pantalla 2](https://raw.githubusercontent.com/ALucasE/caluladora-imc/main/src/img/Captura%20de%20web%2002.png)
+
 _Captura de pantalla de la calculadora en tamaño chico._
 
 ## Instalación
