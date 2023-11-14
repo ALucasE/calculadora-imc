@@ -32,14 +32,14 @@ _Captura de pantalla de la calculadora en tamaño chico._
 
 ## Instalación
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/tu-repositorio.git`
+1. Clona este repositorio: `git clone https://github.com/ALucasE/caluladora-imc.git`
 2. Abre el archivo `index.html` en tu navegador web.
 
 ## Uso
 
 1. Ingresa tu peso en kilogramos.
-2. Ingresa tu altura en metros.
-3. Haz clic en el botón "Calcular IMC".
+2. Ingresa tu altura en centímetros.
+3. Haz clic en el botón "Calcular".
 4. El resultado se mostrará en la pantalla junto con una interpretación.
 
 ## Contribuciones
