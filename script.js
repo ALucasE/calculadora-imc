@@ -21,8 +21,10 @@ function calculoPesoIdeal(altura) {
   imprimir(`Tu peso ideal es entre ${peso1}Kg y ${peso2}Kg`, "extra");
 }
 
+// Version 2.0
 //Función principal
-function verificar() {
+const btn = document.getElementById("btn");
+btn.addEventListener("click", function () {
   //toma los datos de los inputs y hace el calculo de IMC
   let nombre = document.getElementById("nombre").value;
   let peso = document.getElementById("peso").value;
@@ -56,4 +58,42 @@ function verificar() {
     imprimir(`Estado: considerado como obesidad.`, "estado");
     calculoPesoIdeal(altura);
   }
-}
+});
+
+//Version 1.0
+// //Función principal
+// function verificar() {
+//   //toma los datos de los inputs y hace el calculo de IMC
+//   let nombre = document.getElementById("nombre").value;
+//   let peso = document.getElementById("peso").value;
+//   let altura = document.getElementById("altura").value;
+//   alturaM = altura / 100;
+//   imcCalculado = peso / (alturaM * alturaM);
+//   imcCalculado = imcCalculado.toFixed(2);
+
+//   //Condicionales de clasificación
+//   if (imcCalculado < 18.5) {
+//     imprimir(`${nombre} tu IMC es: ${imcCalculado}`, "datos");
+//     imprimir(`Estado: abajo de lo recomendado.`, "estado");
+//     calculoPesoIdeal(altura);
+//   }
+//   if (imcCalculado >= 18.5) {
+//     if (imcCalculado < 25) {
+//       imprimir(`${nombre} tu IMC es: ${imcCalculado}.`, "datos");
+//       imprimir(`Estado: dentro del intervalo normal.`, "estado");
+//       calculoPesoIdeal(altura);
+//     }
+//   }
+//   if (imcCalculado >= 25) {
+//     if (imcCalculado < 30) {
+//       imprimir(`${nombre} tu IMC es: ${imcCalculado}.`, "datos");
+//       imprimir(`Estado: considerado como sobrepeso.`, "estado");
+//       calculoPesoIdeal(altura);
+//     }
+//   }
+//   if (imcCalculado >= 30) {
+//     imprimir(`${nombre} tu IMC es: ${imcCalculado}.`, "datos");
+//     imprimir(`Estado: considerado como obesidad.`, "estado");
+//     calculoPesoIdeal(altura);
+//   }
+// }
