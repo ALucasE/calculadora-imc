@@ -34,7 +34,7 @@ _Captura de pantalla de la calculadora en tamaño chico._
 
 ## Instalación
 
-1. Clona este repositorio: `git clone https://github.com/ALucasE/caluladora-imc.git`
+1. Clona este repositorio: `git clone https://github.com/ALucasE/calculadora-imc.git`
 2. Abre el archivo `index.html` en tu navegador web.
 
 ## Uso
